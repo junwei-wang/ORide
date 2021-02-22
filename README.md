@@ -18,6 +18,11 @@ In particular, we use 20-bit plaintexts for `uint32_t`, to obtain correct result
 - `src/stats.hpp`: Class to gather benchmark statistics (mean, variance, median).
 - `scripts/ntt-params.sage`: [Sage](http://www.sagemath.org/) script to generate NTT parameters for various plaintext sizes.
 
+## Dependencies
+
+- gmp
+- mpfr
+
 ## Running the benchmarks
 
 Make sure to have a C++11 compiler and CMake (version >= 2.8.1).

@@ -3,6 +3,8 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8.1)
 PROJECT(oride)
 
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Ofast -Wall")
+include_directories(/usr/local/include)
+link_directories(/usr/local/lib)
 
 option(PLAINTEXT_20_BITS "Use a plaintext space of 20 bits instead of 30 for uint32_t" OFF)
 if(PLAINTEXT_20_BITS)

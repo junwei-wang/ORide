@@ -16,6 +16,7 @@
  */
 
 #include "tests.hpp"
+#include <random>
 
 #include "fv.hpp"
 #include "stats.hpp"
